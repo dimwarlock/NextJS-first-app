@@ -2,6 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Navbar from './Navbar'
+import { Suspense } from 'react'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,7 +21,9 @@ export default function RootLayout({
       <body className={inter.className}>
         <Navbar />
 
-        <main className='p-5'>{children}</main>
+          <main className='p-5'>
+            {children}
+          </main>
       </body>
     </html>
   )

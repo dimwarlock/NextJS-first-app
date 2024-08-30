@@ -15,7 +15,7 @@ export default function Home()
         <Link className = 'mb-4 btn  btn-primary' href="/users">Lista de Usuarios</Link>
       </div>
 
-      <h2 className = 'flex justify-center'>El siguiente botón genera un Console Log con "Producto añadido."</h2>
+      <h2 className = 'flex justify-center'>El siguiente botón genera un Console Log con Producto añadido.</h2>
       <div className='flex justify-center'>
         <ProductCard />
       </div>
