@@ -5,7 +5,8 @@ const Navbar = () => {
   return (
     <div className='flex bg-black p-5'>
         <Link href='/' className='mr-5'>NextJS</Link>
-        <Link href='/users'>Usuarios</Link>
+        <Link href='/users' className='mr-5'>Usuarios</Link>
+        <Link href='/api/auth/signin'>Login</Link>
     </div>
   )
 }
