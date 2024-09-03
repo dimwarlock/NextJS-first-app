@@ -23,6 +23,6 @@ body {
 /* Modificar estilos generales como h1, h2 y h3. */
 @layer base {
   h1 {
-    @apply font-bold text-2xl;
+    @apply text-5xl mb-4 font-draculie;
   }
 }
